@@ -10,7 +10,6 @@ import kotlinx.coroutines.flow.update
 import kotlinx.coroutines.launch
 import xyz.coderes.cellpoints.domain.GetCenterPointUseCase
 import xyz.coderes.cellpoints.domain.GetStationsUseCase
-import xyz.coderes.cellpoints.domain.model.Point
 import javax.inject.Inject
 
 @HiltViewModel

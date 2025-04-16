@@ -2,7 +2,6 @@ package xyz.coderes.cellpoints.data.local
 
 import androidx.room.Dao
 import androidx.room.Query
-import xyz.coderes.cellpoints.data.local.CenterPoint
 import xyz.coderes.cellpoints.data.model.BaseStationEntity
 
 @Dao

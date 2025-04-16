@@ -33,8 +33,8 @@ fun MapScreen(
 ) {
     val uiState by viewModel.uiState.collectAsStateWithLifecycle()
 
-
     var debounceJob by remember { mutableStateOf<Job?>(null) }
+
     val scope = rememberCoroutineScope()
 
     uiState.centerPoint?.let { centerPoint ->
@@ -102,8 +102,6 @@ fun MapScreen(
             }
         }
     }
-
-
 
     uiState.selectedStation?.let { station ->
         StationInfoCard(station, {
